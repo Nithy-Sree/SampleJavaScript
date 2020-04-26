@@ -1,0 +1,10 @@
+var a = readline();
+var b = readline();
+var t;
+console.log("a: ",a);
+console.log("b: ",b);
+t=a;
+a=b;
+b=t;
+console.log("a: ",a);
+console.log("b: ",b);
